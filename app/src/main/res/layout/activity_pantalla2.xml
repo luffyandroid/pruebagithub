@@ -5,13 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.didact.pruebagithub.MainActivity">
+    tools:context="com.example.didact.pruebagithub.Pantalla2Activity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="transicionDesdeDerecha"
-        android:text="Button" />
-
+        android:text="Bien transicionado amego" />
 </LinearLayout>
